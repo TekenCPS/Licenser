@@ -1,1 +1,1 @@
-g++ -std=c++17 -0fast -pthread -lcurl -lssl -lcrypto -o run NubiAuth.cpp
+g++ -std=c++17 -Ofast -pthread -lcurl -lssl -lcrypto -o run NubiAuth.cpp
