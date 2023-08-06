@@ -8,7 +8,7 @@ class NubiAuth {
   public:
   bool isAuth = false;
 
-  string ApiKey = ""; // your Api Key (to get your Api Key login to auth.nubizaserver.my.id
+  string ApiKey = "ed651633ae61610b8a2b50c91f1830af42552if48mwbord"; // your Api Key (to get your Api Key login to auth.nubizaserver.my.id
   string device_id = ""; // device id (example in NubiAuth.cpp)
 
   // login using user name only
