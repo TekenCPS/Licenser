@@ -1,18 +1,12 @@
 #include <iostream>
 #include "Licenser.h"
 #include "android_device_id.h"
+#include "AsciiArt.txt"
 
 int main()
 {
-    string asciiart = 
-     " ___ _ _             ___ 
- | _ (_) |_ ___ _ _  | _ \
- |  _/ |  _/ -_) '_| |  _/
- |_|_|_|\__\___|_|   |_|  
-   /_\ _  _| |_| |_       
-  / _ \ || |  _| ' \      
- /_/ \_\_,_|\__|_||_|";
-        printf(asciiart);
+    string fileAscii = "AsciiArt.txt";
+    printASCII(fileAscii);
     printf("PiterP Authentication.\n\n");
 
     string user_name = "";
