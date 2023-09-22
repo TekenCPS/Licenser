@@ -5,8 +5,16 @@
 
 int main()
 {
-    string fileAscii = "AsciiArt.txt";
-    printASCII(fileAscii);
+ cout << " _____ _ _              _____  \n";
+ cout << "|  __ (_) |            |  __ \ \n";
+ cout << "| |__) || |_ ___ _ __  | |__) |\n";
+ cout << "|  ___/ | __/ _ \ '__| |  ___/ \n";
+ cout << "| |   | | ||  __/ |    | |     \n";
+ cout << "|_|   |_|\__\___|_|    |_|     \n";
+                                
+                                
+
+    
     printf("PiterP Authentication.\n\n");
 
     string user_name = "";
