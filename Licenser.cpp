@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Licenser.h"
 #include "android_device_id.h"
-#include "AsciiArt.txt"
+
 
 int main()
 {
