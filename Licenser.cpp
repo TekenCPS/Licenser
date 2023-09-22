@@ -1,13 +1,22 @@
 #include <iostream>
-#include "NubiAuth.h"
+#include "Licenser.h"
 #include "android_device_id.h"
 
 int main()
 {
-    printf("NubiAuth Example.\n\n");
+    string asciiart = 
+     " ___ _ _             ___ 
+ | _ (_) |_ ___ _ _  | _ \
+ |  _/ |  _/ -_) '_| |  _/
+ |_|_|_|\__\___|_|   |_|  
+   /_\ _  _| |_| |_       
+  / _ \ || |  _| ' \      
+ /_/ \_\_,_|\__|_||_|";
+        printf(asciiart);
+    printf("PiterP Authentication.\n\n");
 
     string user_name = "";
-    printf("Username : "); std::cin >> user_name;
+    printf("Enter License : "); std::cin >> user_name;
 
     // -------- NubiAuth Example --------
     NubiAuth auth;
